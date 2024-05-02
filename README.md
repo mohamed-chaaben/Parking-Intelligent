@@ -62,7 +62,7 @@ sudo apt install certbot mosquitto mosquitto-clients
 ```
 Pour le sécuriser, on a précisé dans le fichier de configuartion `
 /etc/mosquitto/conf.d/default.conf
-` les certifications (déjà créés), le port sécurisé 8883 et le port *MQTT over websockets* 8083, exclusivement.
+` les certifications (déjà créées), le port sécurisé 8883 et le port *MQTT over websockets* 8083, exclusivement.
 
 Pour effectuer un *publish* dans le broker MQTT depuis la carte Raspberry Pi avec les paramètres suivants:
 - port : 8883
